@@ -19,7 +19,7 @@ Destory and close the windows
 Developed By: SASIDEVI V
 Register Number: 212222230136
 ```
-# i) Convert BGR and RGB to HSV and GRAY
+## i) Convert BGR and RGB to HSV and GRAY
 
 ```
 import cv2
@@ -48,7 +48,7 @@ Output:
 
 ![image](https://github.com/SASIDEVIvenaram/COLOR-CONVERSION/assets/118707332/95f2ab63-dae6-424d-8b71-bbcf7cfcaba6)
 
-# ii)Convert HSV to RGB and BGR
+## ii)Convert HSV to RGB and BGR
 ```
 
 import cv2
@@ -72,7 +72,7 @@ Output:
 
 ![image](https://github.com/SASIDEVIvenaram/COLOR-CONVERSION/assets/118707332/db7a79d3-e5d1-494d-88f3-0d3af6ba636b)
 
-# iii)Convert RGB and BGR to YCrCb
+## iii)Convert RGB and BGR to YCrCb
 ```
 import cv2
 image=cv2.imread('fly.jpg')
@@ -92,7 +92,7 @@ cv2.destroyAllWindows()
 Output:
 ![image](https://github.com/SASIDEVIvenaram/COLOR-CONVERSION/assets/118707332/937626a5-b06a-4d35-b3b1-6c6c4fe6636f)
 
-# iv)Split and Merge RGB Image
+## iv)Split and Merge RGB Image
 ```
 import cv2
 image=cv2.imread('fly.jpg',1)
@@ -116,7 +116,7 @@ cv2.destroyAllWindows()
 Output:
 ![image](https://github.com/SASIDEVIvenaram/COLOR-CONVERSION/assets/118707332/c071657a-c73b-4f26-9e85-00d89a0723c9)
 
-# v) Split and merge HSV Image
+## v) Split and merge HSV Image
 
 ```
 import cv2
